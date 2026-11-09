@@ -1,0 +1,18 @@
+{
+  "screen.playerspotter.title": "Player Spotter",
+  "key.category.playerspotter": "Player Spotter",
+  "key.playerspotter.open": "Open Player Spotter menu",
+  "key.playerspotter.toggle": "Turn Player Spotter on/off",
+
+  "option.playerspotter.enabled": "Mod",
+  "option.playerspotter.glow": "Glow",
+  "option.playerspotter.names": "Names",
+  "option.playerspotter.meter": "Distance meter [ ]",
+  "option.playerspotter.arrow": "Arrow to head",
+  "option.playerspotter.autofill": "Auto fill meter",
+  "option.playerspotter.displayname": "Server name (tab/team)",
+  "option.playerspotter.range": "Range: %s chunks",
+  "option.playerspotter.red": "Red: %s",
+  "option.playerspotter.green": "Green: %s",
+  "option.playerspotter.blue": "Blue: %s"
+}

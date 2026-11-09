@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "playerspotter",
+  "version": "${version}",
+  "name": "Player Spotter",
+  "description": "Glow other players, show their names, and show a distance meter with an arrow pointing at their head. Range 1-16 chunks, custom color, everything toggleable from Mod Menu. Client-side only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.playerspotter.PlayerSpotterClient"],
+    "modmenu": ["com.playerspotter.SpotterModMenu"]
+  },
+  "mixins": [
+    {
+      "config": "playerspotter.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
